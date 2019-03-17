@@ -1,3 +1,5 @@
+package travel_agent;
+
 import travel_agent.Continent;
 import travel_agent.TravelAgent;
 import travel_agent.TravelData;
