@@ -18,11 +18,11 @@ public class TravelData {
     public List<TripOffer> getTripData(){
         return tripData;
     }
-    public boolean bookOffer(float maxPricePerNight, int days, boolean dogAllowance){
+    public boolean bookOffer(float maxPricePerNight, int days, Continent destination, boolean dogAllowance){
         for (TripOffer trip: tripData){
-            if (maxPricePerNight >= trip.getPricePerNight() && days <= trip.getDays() &&
+            if (maxPricePerNight >= trip.getPricePerNight() && days <= trip.getDays()&& destination == trip.getDestination() &&
                     dogAllowance == trip.isDogAllowance()){
-
+                tripData.remove(trip);
                 return true;
 
             }

@@ -9,7 +9,7 @@ public class Start {
     public static void main(String[] args) {
 
         TravelData travelData = new TravelData();
-        TravelAgent travelAgent = new TravelAgent();
+       // TravelAgent travelAgent = new TravelAgent();
 
         TripOffer trip1 = new TripOffer(231f,7, Continent.AF,true);
         TripOffer trip2 = new TripOffer(100f, 14, Continent.EU, true);
@@ -21,9 +21,8 @@ public class Start {
         travelData.addTrip(trip3);
         travelData.addTrip(trip4);
 
-
-        System.out.println(travelAgent.bookOffer(350,7, Continent.AU, false));
-
+        System.out.println(travelData.bookOffer(350,7, Continent.AF, true));
+        System.out.println(travelData.getTripData().size());
 
 
 
