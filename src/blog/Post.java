@@ -1,5 +1,8 @@
 package blog;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
@@ -8,7 +11,7 @@ public class Post extends Entry {
 
 private List<Comment> comment;
 
-    public Post(int id, Date postedDate, User author, String content, List<Comment> comment) {
+    public Post(int id, LocalDateTime postedDate, User author, String content, List<Comment> comment) {
         super(id, postedDate, author, content);
         this.comment = comment;
     }

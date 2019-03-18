@@ -1,15 +1,16 @@
 package blog;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Objects;
 
 public abstract class Entry {
     private int id;
-    private Date postedDate;
+    private LocalDateTime postedDate;
     private User Author;
     private String content;
 
-    public Entry(int id, Date postedDate, User author, String content) {
+    public Entry(int id, LocalDateTime postedDate, User author, String content) {
         this.id = id;
         this.postedDate = postedDate;
         Author = author;
@@ -27,11 +28,11 @@ public abstract class Entry {
         this.id = id;
     }
 
-    public Date getPostedDate() {
+    public LocalDateTime getPostedDate() {
         return postedDate;
     }
 
-    public void setPostedDate(Date postedDate) {
+    public void setPostedDate(LocalDateTime postedDate) {
         this.postedDate = postedDate;
     }
 
