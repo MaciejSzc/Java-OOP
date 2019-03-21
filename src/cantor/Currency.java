@@ -18,6 +18,9 @@ public class Currency {
         this.czk = amount;
         this.rub = amount;
     }
+    public Currency(){
+
+    }
 
     public  double getSum(){
         return pln + usd + gbp + eur + jpy + czk + rub;
