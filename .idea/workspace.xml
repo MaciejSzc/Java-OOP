@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d90c52-6332-4caf-a15f-c6788c3c3ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cantor/CurrencyExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cantor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cantor/Cantor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cantor/ExchangeOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cantor/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cantor/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cantor/ExchangeOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cantor/ExchangeOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cantor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cantor/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cantor/ExchangeOffice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="408">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
@@ -80,20 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cantor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cantor/CurrencyExchange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -131,10 +128,10 @@
         <option value="$PROJECT_DIR$/src/blog/Comment.java" />
         <option value="$PROJECT_DIR$/src/blog/Blog.java" />
         <option value="$PROJECT_DIR$/src/cantor/Cantor.java" />
-        <option value="$PROJECT_DIR$/src/cantor/CurrencyExchange.java" />
         <option value="$PROJECT_DIR$/src/cantor/Currency.java" />
-        <option value="$PROJECT_DIR$/src/cantor/ExchangeOffice.java" />
+        <option value="$PROJECT_DIR$/src/cantor/CurrencyExchange.java" />
         <option value="$PROJECT_DIR$/src/cantor/Main.java" />
+        <option value="$PROJECT_DIR$/src/cantor/ExchangeOffice.java" />
       </list>
     </option>
   </component>
@@ -183,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553201562022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553238576922" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -242,12 +239,12 @@
       <workItem from="1552892615143" duration="1522000" />
       <workItem from="1552902991271" duration="573000" />
       <workItem from="1552936145152" duration="4031000" />
-      <workItem from="1553199360868" duration="2055000" />
+      <workItem from="1553199360868" duration="3556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36215000" />
+    <option name="totallyTimeSpent" value="37716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -258,7 +255,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25113463" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -284,6 +281,38 @@
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25113463" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39965987" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -493,17 +522,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cantor/CurrencyExchange.java">
+    <entry file="file://$PROJECT_DIR$/src/cantor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cantor/ExchangeOffice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
@@ -517,10 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cantor/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/cantor/CurrencyExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

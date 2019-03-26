@@ -5,7 +5,6 @@ public class Main {
         Currency currency = new Currency(1000);
        // CurrencyExchange currencyExchange = new CurrencyExchange();
         ExchangeOffice exchangeOffice = new ExchangeOffice(currency);
-        CurrencyExchange.currencyEx();
 
 
     }

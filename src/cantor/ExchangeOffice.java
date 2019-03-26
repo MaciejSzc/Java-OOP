@@ -22,6 +22,8 @@ private Currency currency;
 
     void exchange(double amount, Currency from, Currency to){
 
+        CurrencyExchange.currencyEx();
+
     }
 
 
